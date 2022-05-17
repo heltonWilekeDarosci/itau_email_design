@@ -1,48 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
-body {
-  background: #fdfdfd;
-  font-family: "Roboto", sans-serif;
-  padding: 1rem;
-}
+@media (max-width: 768px) {
+  body {
+    background: #fdfdfd;
+    font-family: "Roboto", sans-serif;
+    padding: 1rem;
+  }
 
-.header {
-  display: flex;
-  flex-direction: row-reverse;
-}
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-.header__logo {
-  margin: 2rem 3rem 1rem;
-}
+  .header__logo {
+    margin: 2rem 3rem 1rem;
+  }
 
-.banner {
-  background: #e97001ff;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.3;
-  padding: 2rem 3rem;
-}
+  .banner {
+    background: #e97001ff;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    padding: 2rem 3rem;
+  }
 
-.banner__img {
-  background: url(./pictures/banner-house.png) no-repeat center / cover;
-  height: 2.5rem;
-  width: 2.5rem;
-  margin-bottom: 1.25rem;
-}
+  .banner__img {
+    background: url(./pictures/banner-house.png) no-repeat center / cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
 
-.banner__title {
-  color: #fff;
-  font-size: 1.35rem;
-  font-weight: 500;
-  letter-spacing: 1.5px;
-}
+  .banner__title {
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
 
-.banner__span {
-  color: #fbe405ff;
-}
+  .banner__span {
+    color: #fbe405ff;
+  }
 
-.condicoes {
-  display: flex;
-  flex-direction: column;
-  padding: 1.75rem 2.5rem;
+  .condicoes {
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem 2.5rem;
+  }
+
+  .condicoes__title {
+    margin-bottom: 1rem;
+  }
+
+  .condicoes__list {
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  .condicoes__list--item {
+    margin-top: 1rem;
+  }
+
+  .condicoes__img {
+    background: no-repeat;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .condicoes__img--house {
+    background-image: url(/pictures/condicoes-house.png);
+  }
+
+  .condicoes__img--calendario {
+    background-image: url(/pictures/condicoes-calendario.png);
+  }
+
+  .condicoes__img--taxa {
+    background-image: url(/pictures/condicoes-taxa.png);
+  }
+
+  .condicoes__img--fgts {
+    background-image: url(/pictures/condicoes-fgts.png);
+  }
+
+  .condicoes__img--pessoa {
+    background-image: url(/pictures/condicoes-pessoa.png);
+  }
+
+  .condicoes__list--pgraph {
+    font-size: 1rem;
+  }
+
+  .condicoes__btn {
+    background: #e97001ff;
+    color: #fbfeffff;
+    display: inline-block;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+  }
 }
