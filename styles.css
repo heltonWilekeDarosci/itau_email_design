@@ -58,13 +58,16 @@
   }
 
   .condicoes__list--item {
+    display: flex;
     margin-top: 1rem;
+    gap: 1rem;
+    align-items: center;
   }
 
   .condicoes__img {
     background: no-repeat;
+    min-width: 3rem;
     height: 3rem;
-    width: 3rem;
   }
 
   .condicoes__img--house {
@@ -88,7 +91,7 @@
   }
 
   .condicoes__list--pgraph {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   .condicoes__btn {
